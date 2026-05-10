@@ -1,0 +1,32 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local environment files
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and assistant-local state
+.idea/vcs.xml
+.claude/
+
+# Pipeline temporary downloads and scratch output
+*.download
+*.tmp
+outputs/
+figures/generated/
+chimefrbcat1.csv
+chimefrbcat2.csv
+catalog1.csv
+repeaters.csv

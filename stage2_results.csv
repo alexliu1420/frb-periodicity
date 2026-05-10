@@ -1,0 +1,4 @@
+source_id,period_status,period_reference,z,redshift_reference,observed_period_days,predicted_min_days,predicted_max_days,is_consistent,interpretation
+FRB 20180916B,robust periodic activity window,chime_2020_frb20180916b_periodicity,0.0337,marcote_2020_frb20180916b_host,16.35,11.93946153924689,133487.23808250157,True,non-discriminating broad bound
+FRB 20121102A,reported long activity cycle; window estimate varies across analyses,rajwade_2020_frb121102_periodicity,0.19273,tendulkar_2017_frb121102_host,157.0,13.776292891270138,154023.6369141357,True,non-discriminating broad bound
+FRB 20240209A,possible periodicity; treat as candidate until independently confirmed,frb20240209a_periodicity_2025,0.1384,frb20240209a_periodicity_2025,126.0,13.148769484646087,147007.71194071762,True,non-discriminating broad bound
