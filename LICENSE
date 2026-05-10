@@ -40,9 +40,10 @@ Section 3 - Data
 
 Data Attribution
 
-The CSV files in this repository (chimefrbcat1_data.csv, chimefrbcat2.csv,
-catalog1.csv, repeaters.csv, and related files) are derived from the CHIME/FRB
-public catalog releases. These files are not covered by the code or
-documentation licenses above. Users should refer to the CHIME/FRB
-Collaboration's original data release terms. See DATA_SOURCES.md for
-attribution details.
+CHIME/FRB-derived catalog CSV files included in or generated for this repository
+are not covered by the code or documentation licenses above. The committed
+catalog CSV is chimefrbcat1_data.csv. Stage 1 may also download
+chimefrbcat1.csv or chimefrbcat2.csv locally, and legacy/manual workflows may
+refer to catalog1.csv, repeaters.csv, or related derived catalog files. Users
+should refer to the CHIME/FRB Collaboration's original data release terms. See
+DATA_SOURCES.md for attribution details.
