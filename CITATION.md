@@ -1,27 +1,22 @@
 # Citation
 
-TODO before public release: replace all placeholder DOI and repository URL
-fields with the Zenodo DOI and confirmed public repository URL.
-
-Once the Zenodo DOI is minted, update this file with the real DOI and confirmed
-repository URL.
-
 ## Plain Text
 
-Alex Liu. (2026). *FRB Periodicity Investigation: The Orbital Mechanics
-Hypothesis*. Repository: github.com/[to be confirmed]/frb-periodicity. DOI:
-[to be assigned via Zenodo].
+Alex Liu. (2026). *FRB Periodicity Investigation: A Falsifiable
+Directed-Beam Test Pipeline* (v0.1.0). GitHub repository:
+https://github.com/alexliu1420/frb-periodicity. DOI:
+https://doi.org/10.5281/zenodo.20114952.
 
 ## BibTeX
 
 ```bibtex
 @misc{liu2026frbperiodicity,
-  title        = {FRB Periodicity Investigation: The Orbital Mechanics Hypothesis},
+  title        = {FRB Periodicity Investigation: A Falsifiable Directed-Beam Test Pipeline},
   author       = {Liu, Alex},
   year         = {2026},
+  version      = {v0.1.0},
   howpublished = {GitHub repository},
-  url          = {https://github.com/[to be confirmed]/frb-periodicity},
-  doi          = {[to be assigned via Zenodo]},
-  note         = {Once the Zenodo DOI is minted, update this citation with the real DOI and repository URL.}
+  url          = {https://github.com/alexliu1420/frb-periodicity},
+  doi          = {10.5281/zenodo.20114952}
 }
 ```
