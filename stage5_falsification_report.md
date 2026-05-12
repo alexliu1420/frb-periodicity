@@ -14,28 +14,30 @@ This stage tests only the passive orbital-aberration directed-beam model:
 Under those assumptions:
 
 ```text
-|df/dt| proportional to D Omega
+|df/dt| proportional to D f^2 Omega
 Omega = a_orb / c
 a_orb proportional to M^(1/3) P^(-4/3)
 ```
 
-At fixed aperture and observing frequency, this gives:
-
-```text
-|df/dt| proportional to P^(-4/3)
-```
+The model predicts both the period scaling and the `f^2` frequency scaling
+simultaneously. The two anchor sources used here are reported at different
+observing frequencies (FRB 20180916B in CHIME band; FRB 20121102A at Hessels
+et al. 2019's L-band), so the test combines the period scaling and the
+frequency scaling jointly through the predicted `df/dt` values.
 
 ## Result
 
-Using representative values:
+Using representative values at their native observing frequencies:
 
-| Source | Period | Observed df/dt | Predicted df/dt |
-| --- | ---: | ---: | ---: |
-| FRB 20180916B | 16.35 d | -2.0 MHz/ms | -2.08 MHz/ms |
-| FRB 20121102A | 157.0 d | -3.9 MHz/ms | -0.10 MHz/ms |
+| Source | Period | Observed df/dt | At freq | Predicted df/dt |
+| --- | ---: | ---: | ---: | ---: |
+| FRB 20180916B | 16.35 d | -2.0 MHz/ms | 600 MHz | -2.08 MHz/ms |
+| FRB 20121102A | 157.0 d | -3.9 MHz/ms | 1400 MHz | -0.555 MHz/ms |
 
-The longer-period source has a larger representative drift magnitude, while the
-passive model predicts a much smaller one.
+The predicted ratio (with the model's own `f^2 P^(-4/3)` dependence carrying
+both the period and frequency scaling) is 0.267. The observed ratio is 1.95.
+The discrepancy factor is approximately 7.3, above the data-derived failure
+threshold of 5.
 
 ## Assessment
 
@@ -51,6 +53,9 @@ conditions and is currently underconstrained.
 
 - Replace representative `df/dt` values with burst-level measurements and
   uncertainties.
-- Normalize or model observing-frequency dependence.
+- The `f^2` normalization implicit in the predicted ratio is the model's own
+  prediction; verifying that the natural sub-burst slope-law literature
+  supports `f^alpha` with alpha close to 2 over the relevant frequency range
+  is a load-bearing literature check.
 - Document DM correction method.
 - Compare against natural sub-burst drift laws.

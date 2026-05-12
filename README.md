@@ -46,6 +46,24 @@ Population-level claims are not allowed at the current sample size. The pipeline
 tracks two robust periodic repeaters plus one candidate/possible source,
 FRB 20240209A. That is too small for population inference.
 
+## Manuscript
+
+The v0.2.0 release adds a manuscript on the directed-beam falsification
+framework, its application to FRB 20180916B and FRB 20121102A, and the
+kinematic-consistency result for the active-tracking variant:
+
+- [paper/frb_periodicity_investigation.md](paper/frb_periodicity_investigation.md) — source
+- [paper/frb_periodicity_investigation.pdf](paper/frb_periodicity_investigation.pdf) — built artifact (pandoc + xelatex)
+
+The PDF is built from the markdown by [paper/build_paper.py](paper/build_paper.py),
+and Figures 1 and 2 are regenerated from this repository's anchor data
+by [paper/figures/generate_figures.py](paper/figures/generate_figures.py) — so any
+future correction to `frb/data.py` propagates automatically into the
+figures.
+
+A Zenodo DOI for v0.2.0 will be assigned at deposit time and added to
+[CITATION.md](CITATION.md) once available.
+
 ## Role of CHIME/FRB Catalog 2
 
 CHIME/FRB Catalog 2 is used here to update catalog-scale repeater context and
