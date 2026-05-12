@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.1 - 2026-05-12
+
+- Filled in the v0.2.0 Zenodo DOI (`10.5281/zenodo.20130447`) in the
+  manuscript's §Code and Data Availability section. The previous
+  forward-reference ("the v0.2.0 Zenodo DOI is assigned at deposit
+  time and will be listed in the published version of this note")
+  is now resolved.
+- Added the concept DOI (`10.5281/zenodo.20114951`) — Zenodo's
+  always-resolves-to-latest-version pointer — to the manuscript's
+  Code and Data Availability section and to `CITATION.md` /
+  `README.md`.
+- Extended `CITATION.md` to provide separate plain-text and BibTeX
+  entries for v0.1.0 and v0.2.0, plus the concept-DOI line.
+- Rebuilt `paper/frb_periodicity_investigation.pdf` with the
+  embedded DOIs.
+- No scientific content changes; the manuscript text outside §Code
+  and Data Availability is byte-identical to v0.2.0.
+
 ## 0.2.0 - 2026-05-11
 
 - Added the v0.2.0 manuscript at `paper/frb_periodicity_investigation.md`,

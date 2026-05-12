@@ -61,8 +61,11 @@ by [paper/figures/generate_figures.py](paper/figures/generate_figures.py) — so
 future correction to `frb/data.py` propagates automatically into the
 figures.
 
-A Zenodo DOI for v0.2.0 will be assigned at deposit time and added to
-[CITATION.md](CITATION.md) once available.
+The v0.2.0 release is permanently archived at Zenodo:
+[doi:10.5281/zenodo.20130447](https://doi.org/10.5281/zenodo.20130447).
+The concept DOI [10.5281/zenodo.20114951](https://doi.org/10.5281/zenodo.20114951)
+threads all versions and always resolves to the latest.
+See [CITATION.md](CITATION.md) for plain-text and BibTeX entries.
 
 ## Role of CHIME/FRB Catalog 2
 
