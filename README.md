@@ -169,17 +169,3 @@ The repo explicitly engages prior work on directed-beam interpretations of
 FRBs, periodic repeaters, chromatic activity windows, sub-burst drift laws,
 polarization/RVM behavior, and RM variability. See
 [docs/literature_review.md](docs/literature_review.md).
-
-## Claim Discipline
-
-This repository should use publication-safe language:
-
-- "consistent with"
-- "fails under these assumptions"
-- "not currently discriminating"
-- "candidate-level"
-- "requires burst-level data"
-
-It should not use advocacy language such as "proves," "kills," "checkmate," or
-"consensus collapsed." The useful contribution is a transparent test framework,
-including negative results.
