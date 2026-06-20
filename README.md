@@ -46,27 +46,6 @@ Population-level claims are not allowed at the current sample size. The pipeline
 tracks two robust periodic repeaters plus one candidate/possible source,
 FRB 20240209A. That is too small for population inference.
 
-## Manuscript
-
-The v0.2.0 release adds a manuscript on the directed-beam falsification
-framework, its application to FRB 20180916B and FRB 20121102A, and the
-kinematic-consistency result for the active-tracking variant:
-
-- [paper/frb_periodicity_investigation.md](paper/frb_periodicity_investigation.md) — source
-- [paper/frb_periodicity_investigation.pdf](paper/frb_periodicity_investigation.pdf) — built artifact (pandoc + xelatex)
-
-The PDF is built from the markdown by [paper/build_paper.py](paper/build_paper.py),
-and Figures 1 and 2 are regenerated from this repository's anchor data
-by [paper/figures/generate_figures.py](paper/figures/generate_figures.py) — so any
-future correction to `frb/data.py` propagates automatically into the
-figures.
-
-The v0.2.0 release is permanently archived at Zenodo:
-[doi:10.5281/zenodo.20130447](https://doi.org/10.5281/zenodo.20130447).
-The concept DOI [10.5281/zenodo.20114951](https://doi.org/10.5281/zenodo.20114951)
-threads all versions and always resolves to the latest.
-See [CITATION.md](CITATION.md) for plain-text and BibTeX entries.
-
 ## Role of CHIME/FRB Catalog 2
 
 CHIME/FRB Catalog 2 is used here to update catalog-scale repeater context and
@@ -169,3 +148,12 @@ The repo explicitly engages prior work on directed-beam interpretations of
 FRBs, periodic repeaters, chromatic activity windows, sub-burst drift laws,
 polarization/RVM behavior, and RM variability. See
 [docs/literature_review.md](docs/literature_review.md).
+
+## AI Assistance Disclosure
+
+Large language model (LLM) assistants were used during development of this
+repository, including code drafting, refactoring, and preparation of the draft
+manuscript. All scientific claims, analysis choices, citations, and conclusions
+were reviewed and verified by the author, who takes full responsibility for the
+content. This disclosure is provided in line with current guidance on the use of
+generative AI tools in scholarly work.
